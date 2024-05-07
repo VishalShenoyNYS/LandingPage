@@ -148,7 +148,7 @@ main{
     flex-wrap: wrap;
 }
 
-.profile-car{
+.profile-card{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -260,4 +260,22 @@ main{
 
 html{
     scroll-behavior: smooth;
+}
+
+#backToTopButton {
+    /* display: none; Hide the button by default */
+    position: fixed; /* Fixed position so it stays at the same place even when scrolling */
+    bottom: 20px; /* Distance from the bottom of the page */
+    right: 20px; /* Distance from the right side of the page */
+    z-index: 99; /* Ensure it's above other content */
+    padding: 10px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: var(--blue-02); /* Button background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+#backToTopBtn:hover {
+    background-color: var(--blue-01); /* Darker background color on hover */
 }
