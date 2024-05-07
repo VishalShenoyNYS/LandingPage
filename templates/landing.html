@@ -40,14 +40,13 @@
             <p>New You Solutions is an India based Organization with an ISO Certification in the field of Training & Development. New You Solutions targets at delivering Quality Content to the Society, maintaining the highest standard at its truest Knowledge, Values & Skills</p>
             <br><br>
             <div class="row-flex" style="gap: 2.5rem;">
-                <img src="{{ url_for('static',filename='imgs/people/dr-shalini-prakash.png')}}" alt="" class="round">
-                <div class="medium" style="width: 30vw;">
+                <div class="" style="width: 30vw;">
                     <h3>Founder’s Message</h3>
                     <p>
                         It is my vision that NYS was birthed to impact society with a radical change, with empowered talents, and with a positive attitude to influence the current and the forthcoming generation.</p>
+                    </div>   
+                    <img src="{{ url_for('static',filename='imgs/people/dr-shalini-prakash.png')}}" alt="" class="round">
                 </div>
-
-            </div>
         </section>
         <br><br><br>
         <section class="large section" id="about" style="background-color: var(--blue-01-glass);width: 100vw;">
@@ -202,5 +201,7 @@
             </form>
         </section>
     </main>
+    <script src="{{ url_for('static', filename='js/backToTop.js') }}"></script>
+    <button id="backToTopButton">Top</button>
 </body>
 </html>
