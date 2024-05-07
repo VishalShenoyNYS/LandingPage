@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New You Solutions</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="{{ url_for('static', filename='imgs/small-logo.png') }}" alt="">
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>  
+                <li class="nav-item">
+                    <a href="#about">About</a>
+                </li>  
+                <li class="nav-item">
+                    <a href="#services">Services</a>
+                </li>  
+                <li class="nav-item">
+                    <a href="#connect">Connect</a>
+                </li>  
+                <li class="nav-item">
+                </li>  
+            </ul>
+        </div>
+    </header>
+    <div class="page-hero" id="page-hero">
+        <h1 id="page-hero-title">New You Solutions</h1>
+    </div>
+    <br>
+    <main>
+        <section class="large section" id="#home">
+            <h1>Welcome</h1>
+            <p>New You Solutions is an India based Organization with an ISO Certification in the field of Training & Development. New You Solutions targets at delivering Quality Content to the Society, maintaining the highest standard at its truest Knowledge, Values & Skills</p>
+            <br><br>
+            <div class="row-flex" style="gap: 2.5rem;">
+                <img src="{{ url_for('static',filename='imgs/people/dr-shalini-prakash.png')}}" alt="" class="round">
+                <div class="medium" style="width: 30vw;">
+                    <h3>Founder’s Message</h3>
+                    <p>
+                        It is my vision that NYS was birthed to impact society with a radical change, with empowered talents, and with a positive attitude to influence the current and the forthcoming generation.</p>
+                </div>
+
+            </div>
+        </section>
+        <br><br><br>
+        <section class="large section" id="about" style="background-color: var(--blue-01-glass);width: 100vw;">
+            <br>
+            <h1>About NYS</h1>
+            <p class="large">New You Solutions is primarily engaged in Soft-Skills Training, Personality Development Training, Students & Professional Counselling, Leadership, Mentoring & Training Professionals, Providing Survival Techniques & Life-Skills Coaching, Various Skills & Art Development Courses. NYS also provides Business Outsourcing, Business Strategic Planning, IT Consultations & Solutions and Marketing Solutions. </p>
+            <p class="large">New You Solution’s Faculty provides High-Quality and efficient Technical Support and Skilled-Training Programs. Among others, Personality Development, Public Speaking, Strategic Planning and Signatures Training Programs (like DPA), which makes anyone fit to climb up the ladder of success.</p>
+            <br><br>
+            <h2>Mission</h2>
+            <p class="medium">That every individual may have a balanced transformation so as to beradically transformed,thereby making a positive impact in the Family, Work-Place, Society and the World at large.</p>
+            <br><br>
+            <h2>Our Team</h2>
+            <br>
+            <div class="row-flex" style="gap: 3rem;">
+                <div class="profile-card">
+                    <img src="{{ url_for('static',filename='imgs/people/dr-shalini-prakash.png') }}" alt="" class="round">
+                    <h4>Dr. Shalini Prakash</h4>
+                </div>
+                <div class="profile-card">
+                    <img src="{{ url_for('static',filename='imgs/people/mr-gladwyn.png') }}" alt="" class="round">
+                    <h4>Mr. Gladwyn</h4>
+                </div>
+                <div class="profile-card">
+                    <img src="{{ url_for('static',filename='imgs/people/cdr-vikram-rajan.png') }}" alt="" class="round">
+                    <h4>CDR. Vikram Rajan</h4>
+                </div>
+                <div class="profile-card">
+                    <img src="{{ url_for('static',filename='imgs/people/dr-royan-a-r.png') }}" alt="" class="round">
+                    <h4>Dr. Royan A R</h4>
+                </div>
+                <div class="profile-card">
+                    <img src="{{ url_for('static',filename='imgs/people/s-reghunathan.png') }}" alt="" class="round">
+                    <h4>S Reghunathan</h4>
+                </div>
+            </div>
+            <br>
+        </section>
+        <br><br><br>
+        <section class="large section" id="services" style="width: 100vw;">
+            <h1>Services</h1>
+            <br>
+            <div class="row-flex" style="gap: 7rem;">
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--blue-01);">
+                            <h1>Mentoring</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--blue-01-glass);">
+                            <p class="large">Mentoring in soft-skills is necessary for an all-round employee satisfaction in any business, which leads to better productivity. But this holds true not just in the business arena, but also at all levels of life. Mentoring programs at NYS are specially designed to address your concerns at various facets of life and in one's career, enabling an all-round satisfaction and enhanced efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--blue-01);">
+                            <h1>Training</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--blue-01-glass);">
+                            <p class="large">Soft skills always give you that added edge upon your technical training that you have received as a part of your academics. Our intensive and holistic training would ensure that you develop good interpersonal and relationship-building skills which will help you to communicate and collaborate effectively at any corporate level.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row-flex" style="gap: 7rem;">
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--orange-01);">
+                            <h1>Counselling</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--orange-01-glass);">
+                            <p class="large">Upon hearing the problems of an individual, a decision is made as to what should be done and advice could be given through the method of Directive Counseling. Non-Directive Counseling is the process of skillfully handling the problems of an individual and determining the course of action to be adopted to resolve his problem. Cooperative Counseling is the process in which both the counselor and client mutually cooperate to solve the problems of the individual.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--orange-01);">
+                            <h1>Coaching</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--orange-01-glass);">
+                            <p class="large">Executive Coaching is all about a person working individually with an executive coach on his/her particular areas of strength and weakness to fulfil their potential. This type of coaching is a catalyst for the enhanced performance of the individual and of the teams they lead.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row-flex" style="gap: 7rem;">
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--orange-01);">
+                            <h1>Personality Development</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--orange-01-glass);">
+                            <p class="large">Personality development is not more counted a cliché while moving ahead in your career. In our sessions, we engage our trainees in an interesting way and make them unravel their hidden potential while ensuring that they are appropriately enabled to shape their personality in a way that enables them stand out in the crowd. After all, that is what personality development is all about.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--orange-01);">
+                            <h1>Strategic Planning</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--orange-01-glass);">
+                            <p class="large">While setting goals it is necessary to look at things from a larger perspective. NYS helps you get a bird's-eye-view of your larger plans and helps you in deconstructing your mammoth plans helping you make step-by-step measurable strategies to reach your seemingly large goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row-flex" style="gap: 7rem;">
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--blue-02);">
+                            <h1>Team Building</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--blue-02-glass);">
+                            <p class="large">Strong teams can enhance the performance of any organisation. The reverse also holds true. Team building is a collective term for myriad activities that is used to enhance social relations and define roles within teams involving many collaborative tasks. We at NYS have tailor-made sessions for helping you establish strong teams that would address issues, enable exchange of ideas freely, and promote confident communication. We persuasively believe that strong teams do last the test of time!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card-base">
+                    <div class="flip-card">
+                        <div class="flip-card-front" style="background-color: var(--blue-02);">
+                            <h1>CRM</h1>
+                        </div>
+                        <div class="flip-card-back" style="background-color: var(--blue-02-glass);">
+                            <p class="large">The art of managing the organization’s relationship with the customers and prospective clients refer to customer relationship management. CRM leads to satisfied customers and higher business every time leading to a long way in retaining existing customers. CRM also ensures customers return back home with a smile, improving the relationship between the organization and customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+        <br><br><br>
+        <section class="large section" id="connect" style="width: 100vw;;">
+            <h1 style="color: #ffffff;">Connect With Us</h1>
+            <form action="" method="post" class="medium">
+                <div class="large input-field">
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name-field" placeholder="Name" class="large">
+                </div>
+                <div class="large input-field">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" id="email-field" placeholder="Email" class="large">
+                </div>
+                <div class="large input-field">
+                    <label for="name">Query</label>
+                    <textarea name="Query" id="query-fiels" class="large" placeholder="Query"></textarea>
+                </div>
+                <button type="submit" class="button">Send Enquiry</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
