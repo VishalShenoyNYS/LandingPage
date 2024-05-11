@@ -8,7 +8,7 @@
 
     --cream-01: #EFEFD0;
     --white-01: #FFFFFF;
-    --black-01: #000000
+    --black-01: #000000;
     --blue-01: #0684BE;
     --blue-02: #04668D;
     --orange-01: #F36915;
@@ -148,6 +148,7 @@ main{
 }
 .round{
     border-radius: 50%;
+    aspect-ratio: 1;
 }
 .row-flex{
     display: flex;
