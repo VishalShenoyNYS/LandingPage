@@ -6,6 +6,7 @@
     <title>New You Solutions</title>
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="{{ url_for('static',filename='imgs/small-logo.png')}}" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -32,7 +33,7 @@
         </div>
     </header>
     <div class="page-hero" id="page-hero">
-        <h1 id="page-hero-title">New You Solutions</h1>
+        <h1 id="page-hero-title" style="color: var();">New You Solutions</h1>
     </div>
     <br>
     <main>
@@ -184,7 +185,7 @@
         </section>
         <br><br><br>
         <section class="large section" id="connect" style="width: 100vw;;">
-            <h1 style="color: #ffffff;">Connect With Us</h1>
+            <h1 style="color: var(--white-01);">Connect With Us</h1>
             <form action="" method="post" class="medium">
                 <div class="large input-field">
                     <label for="name">Name:</label><br>
