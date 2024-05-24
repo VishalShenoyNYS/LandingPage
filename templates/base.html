@@ -28,7 +28,10 @@
                     <a href="/courses">Courses</a>
                 </li>  
                 <li class="nav-item">
-                    <a href="/#connect">Connect</a>
+                    <a href="/study-abroad">Study Abroad</a>
+                </li>  
+                <li class="nav-item">
+                    <a href="/connect">Connect</a>
                 </li>  
                 <li class="nav-item">
                 </li>  
@@ -36,10 +39,14 @@
         </div>
     </header>
     <div class="page-hero">
-        <h1 id="page-hero-title" style="font-family: var(--font-family-01);color: var(--white-01);">{{ page_hero_title }}</h1>
+        <!-- <h1 id="page-hero-title" style="font-family: var(--font-family-01);color: var(--white-01);">{{ page_hero_title }}</h1>
         <video muted autoplay loop class="page-hero-video" >
             <source src="{{ page_hero_video }}">
-        </video>
+        </video> -->
+        <div class="row-flex">
+            <img src="{{ url_for('static',filename='imgs/logo.png') }}" style="width: 40%;aspect-ratio: 1;">
+            <img src="{{ url_for('static',filename='imgs/people/student.png') }}" style="object-fit: contain;" alt="">
+        </div>
     </div>
     <br>
     <main>
@@ -83,6 +90,7 @@
         </div>
         <br>
     </footer>
+    <a href="https://wa.me/9632213760?text=Welcome%20to%20New%20You%20Solutions!%20How%20can%20we%20assist%20you%3F" class="whatsapp icon" target="_welcome"><i class="fa-brands fa-whatsapp"></i></a>
     <button id="backToTopButton">
         <i class="fa-solid fa-caret-up icon"></i>
     </button>
