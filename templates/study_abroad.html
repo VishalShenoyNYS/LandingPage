@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block main %}
+<section class="large container">
+    <div class="row-flex" style="gap: 2rem;">
+        <div class="card">
+            <img src="{{ url_for('static',filename='imgs/study-abroad/counselling.jpg') }}" alt="Education Counselling" class="card-header-pic">
+            <h3>Education Counselling</h3>
+            <p>Our Education Counsellors will learn about your career aspirations, lifestyle and study goals so that we can offer tailored advice.</p>
+            <button class="button">
+                <a href="#" class="button">Learn More</a>
+            </button>
+            <img src="{{ url_for('static',filename='imgs/small-logo.png') }}" alt="NYS" class="icon">
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static',filename='imgs/study-abroad/application.jpg') }}" alt="Application Process" class="card-header-pic">
+            <h3>Application Process</h3>
+            <p>Our counsellor will assist you in shortlisting and applying to the institutions and courses in which you are eligible to apply.</p>
+            <button class="button">
+                <a href="#" class="button">Learn More</a>
+            </button>
+            <img src="{{ url_for('static',filename='imgs/small-logo.png') }}" alt="NYS" class="icon">
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static',filename='imgs/study-abroad/guidance.jpg') }}" alt="Scholarship Guidance" class="card-header-pic">
+            <h3>Scholarship Guidance</h3>
+            <p>There are a wide variety of scholarships available across many of our partner institutions. Our education consultants can help find the right one for you.</p>
+            <button class="button">
+                <a href="#" class="button">Learn More</a>
+            </button>
+            <img src="{{ url_for('static',filename='imgs/small-logo.png') }}" alt="NYS" class="icon">
+        </div>
+    </div><br>
+    <div class="row-flex" style="gap: 2rem;">
+
+        <div class="card">
+            <img src="{{ url_for('static',filename='imgs/study-abroad/visa.jpg') }}" alt="Visa Application" class="card-header-pic">
+            <h3>Visa Application</h3>
+            <p>We've got years of experience handling every type of visa. Our visa experts will guide and support you throughout the entire visa application process.</p>
+            
+            <button class="button">
+                <a href="#" class="button">Learn More</a>
+            </button>
+            <img src="{{ url_for('static',filename='imgs/small-logo.png') }}" alt="NYS" class="icon">
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static',filename='imgs/study-abroad/health-insurance.jpg') }}" alt="Student Health Insurance" class="card-header-pic">
+            <h3>Student Health Insurance</h3>
+            <p>From finding the best health cover policies to ensuring the insurance benefits for you, we have got you covered.</p>
+            <button class="button">
+                <a href="#" class="button">Learn More</a>
+            </button>
+            <img src="{{ url_for('static',filename='imgs/small-logo.png') }}" alt="NYS" class="imae-icon">
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static',filename='imgs/study-abroad/dorm.jpg') }}" alt="Student Accommodation" class="card-header-pic">
+            <h3>Student Accommodation</h3>
+            <p>Explore one of the world's largest student accommodation portals to plan your study abroad accommodations cost-effectively.</p>
+            <button class="button">
+                <a href="#" class="button">Learn More</a>
+            </button>
+            <img src="{{ url_for('static',filename='imgs/small-logo.png') }}" alt="NYS" class="imae-icon">
+            
+        </div>
+    </div>
+</section>
+<br><br>
+{% endblock %}
