@@ -1,6 +1,7 @@
 // Function to switch classes based on screen orientation
 function switchFlexClasses() {
-    const rowFlexElements = document.querySelectorAll('.row-flex');
+    var mainElements = document.querySelector('main');
+    const rowFlexElements = mainElements.querySelectorAll('.row-flex');
     if (window.matchMedia("(orientation: portrait)").matches) {
         // Switch to col-flex for portrait mode
         rowFlexElements.forEach(element => {
