@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins&family=Ubuntu+Condensed&display=swap');
 @import url('https://vishalshenoy2002.github.io/StyleWiz/buttons.css');
 @import url('./card.css');
+@import url('./media-queries.css');
 
 :root{
     --font-family-01: 'Acme', sans-serif;
